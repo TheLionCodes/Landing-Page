@@ -1,3 +1,64 @@
-h1{
-    color: green;
+/*Overwrites*/
+
+ul{
+
+    list-style: none;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Global Styles */
+
+body{
+   font-family: 'Roboto', Arial, sans-serif; 
+}
+
+.wrapper{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header, footer{
+    padding: .5rem 2rem;
+    background-color:#1f2937 ;
+    color: white;
+}
+
+header .wrapper, footer .wrapper{
+    display: flex;
+    align-items: center;
+}
+
+header .wrapper{
+    justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.125rem;
+    
+}
+
+header .logo{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+}
+
+/* Footer */
+
+footer .wrapper{
+    justify-content: center;
+    font-size: 1.125rem;
+    font-weight: 400; 
 }
