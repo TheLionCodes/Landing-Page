@@ -22,6 +22,10 @@ a{
     text-decoration: none;
 }
 
+p{
+    margin: .5rem 0;
+}
+
 button{
     border: none;
 }
@@ -48,12 +52,21 @@ body{
     background-color: #3882f6;
 }
 
+.invert{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
 /* Header */
 
 header, footer{
-    padding: .5rem 0;
     background-color:#1f2937 ;
     color: white;
+}
+
+header{
+    padding: .5rem 0;
 }
 
 header .wrapper, footer .wrapper{
@@ -78,6 +91,10 @@ header .logo{
 }
 
 /* Footer */
+
+footer{
+    padding: 1rem 0;
+}
 
 footer .wrapper{
     justify-content: center;
@@ -174,5 +191,30 @@ footer .wrapper{
 .quote-section__author{
     font-size: .875rem;
     font-weight: 700;
+}
 
+/* CTA Section */
+
+.cta-section{
+    padding: 5rem 0;
+}
+
+.cta-section .wrapper{
+    padding: 2rem 6rem;
+    border-radius: .5rem;
+    background-color:#3882f6;
+    color:  white;;
+    align-items: center;
+}
+
+.cta-section .lh-col, .cta-section .rh-col{
+    flex: 1;
+}
+
+.cta-section .rh-col{
+    display: flex;
+}
+
+.cta-section .pill{
+    margin-left: auto;
 }
