@@ -1,4 +1,8 @@
-/*Overwrites*/
+/* Reset */
+
+*{
+    box-sizing: border-box;
+}
 
 ul{
 
@@ -10,8 +14,16 @@ body{
     margin: 0;
 }
 
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
 a{
     text-decoration: none;
+}
+
+button{
+    border: none;
 }
 
 /* Global Styles */
@@ -22,19 +34,29 @@ body{
 
 .wrapper{
     max-width: 1240px;
+    padding: 0 2rem;
     margin: 0 auto;
+    display: flex;
+}
+
+.pill{
+    padding: .5rem 2rem;
+    border-radius: .5rem;
+    font-size: 1.125rem;
+    color: white;
+    font-weight: 700;
+    background-color: #3882f6;
 }
 
 /* Header */
 
 header, footer{
-    padding: .5rem 2rem;
+    padding: .5rem 0;
     background-color:#1f2937 ;
     color: white;
 }
 
 header .wrapper, footer .wrapper{
-    display: flex;
     align-items: center;
 }
 
@@ -52,7 +74,7 @@ header ul{
 header .logo{
     font-size: 1.5rem;
     font-weight: 900;
-    color: white;
+    color: #f9faf8;
 }
 
 /* Footer */
@@ -61,4 +83,37 @@ footer .wrapper{
     justify-content: center;
     font-size: 1.125rem;
     font-weight: 400; 
+}
+
+/* Hero Banner */
+
+.hero-banner{
+    padding: 5rem 0;
+    display: flex;
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+.hero-banner .wrapper{
+    align-items: center;
+    gap: 3rem;
+}
+
+.hero-banner .wrapper .rh-col, .hero-banner .wrapper .lh-col{
+    flex: 1;
+}
+
+.hero-banner__title{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.hero-banner__sub-text{
+    font-size: 1.125rem;
+    color: #e5e7eb;
+
+}
+
+.hero-image{
+    width: 100%;
 }
