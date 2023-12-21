@@ -157,3 +157,22 @@ footer .wrapper{
 }
 
 /* Quote Section */
+
+.quote-section{
+    padding: 8rem 0;
+    background-color: #e5e7eb;
+}
+
+.quote-section .wrapper{
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.quote-section__author{
+    font-size: .875rem;
+    font-weight: 700;
+
+}
