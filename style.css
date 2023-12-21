@@ -99,7 +99,7 @@ footer .wrapper{
     gap: 3rem;
 }
 
-.hero-banner .wrapper .rh-col, .hero-banner .wrapper .lh-col{
+.hero-banner .rh-col, .hero-banner .lh-col{
     flex: 1;
 }
 
@@ -119,3 +119,39 @@ footer .wrapper{
 }
 
 /* Info Section */
+
+.info-section .wrapper{
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info-section h2{
+    margin-bottom: 2.5rem;
+    color: #1f2937;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.info-section .card__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.info-section .card{
+    width: 160px;
+}
+
+.info-section .card__image{
+    width: 160px;
+    height: 160px;
+    border: 2px solid #3882f6;
+    border-radius: 1rem;
+}
+
+.info-section .card__sub-text{
+    color: 
+}
